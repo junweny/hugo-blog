@@ -103,7 +103,7 @@ stickyNav = true
 
 # 导航菜单选项
 # remove rss
-reorderNavItems = ["home", "categories", "tags", "posts", "tools", "docs", "search", "github", "about"]
+reorderNavItems = ["home", "categories", "tags", "posts", "search", "about"]
 
 # 是否折叠显示导航菜单
 #collapseNavItems = ["posts", "categories", "tags", "rss"]
@@ -123,9 +123,9 @@ twitter = "dgdghub"
 
 [params.navItems]
 home = { href = "/", icon = "home", title = "首页" }
-github = { href = "https://github.com/88899/hugo-blog", icon = "logo-github", title = "GitHub" }
-tools = { href = "https://www.518855.xyz", icon = "rocket", title = "导航" }
-docs = { href = "https://cici.pp.ua", icon = "documents", title = "文档" }
+#github = { href = "https://github.com/88899/hugo-blog", icon = "logo-github", title = "GitHub" }
+#tools = { href = "https://www.518855.xyz", icon = "rocket", title = "导航" }
+#docs = { href = "https://cici.pp.ua", icon = "documents", title = "文档" }
 # me = { href = "https://985188.xyz", icon = "person", title = "About" }
 
 [params.advanced]
@@ -139,7 +139,7 @@ jsDateFormat = "yyyy年MM月dd日"
 
 # for peht theme
 #[params.Author]
-#name = "AiEDU"
+#name = "junweny"
 #avatar = "img/personal/avatar.png"
 
 [services]
@@ -147,7 +147,7 @@ jsDateFormat = "yyyy年MM月dd日"
 ID = "G-7QPNK9FQQL"
 
 [services.disqus]
-# shortname = "aiedu-1"
+# shortname = "junweny-1"
 
 # 多个内容目录映射
 [module]
